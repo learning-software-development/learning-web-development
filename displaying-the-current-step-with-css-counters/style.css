@@ -1,0 +1,52 @@
+.steps {
+  counter-reset: currentStep 0 remainder 0 totalStep 0;
+}
+
+button {
+  counter-increment: totalStep;
+}
+
+button::before {
+  content: "";
+  counter-increment: currentStep;
+}
+
+button.active ~ button::before {
+  /* prevents currentStep from being incremented! */
+  counter-increment: remainder;
+}
+
+.message::before {
+  content: "Step: " counter(currentStep) " / " counter(totalStep);
+}
+
+.steps-2 .message::before {
+  content: "Step: " counter(currentStep) " / " counter(totalStep) " ("
+    counter(remainder) " to go!)";
+}
+
+/* JUST FOR DEMO */
+button {
+  border: 0;
+  background: #a5d6a7;
+  color: black;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  font-family: inherit;
+}
+button.active {
+  background: #43a047;
+}
+body {
+  font: 110% system-ui;
+  background: #eceff1;
+  text-align: center;
+}
+.message {
+  padding: 1rem;
+  font-size: 2rem;
+  font-weight: 900;
+}
+.steps {
+  margin: 0 0 3rem 0;
+}
