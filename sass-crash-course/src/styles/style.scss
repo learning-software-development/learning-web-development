@@ -1,0 +1,30 @@
+@import "./variables";
+
+@mixin flexCenter($direction) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: $direction;
+}
+
+header {
+  background-color: lightblue;
+  height: 100vh;
+
+  @include flexCenter(column);
+}
+
+footer {
+  @extend header;
+  a {
+    background-color: $primaryButton;
+    color: $textColour;
+    &:hover {
+      background-color: $textColour;
+      color: $primaryButton;
+    }
+    &::after {
+      content: "Hellooo";
+    }
+  }
+}

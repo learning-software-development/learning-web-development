@@ -13,6 +13,7 @@ Online tutorials for various web frameworks and technologies, which I completed 
 - :heavy_check_mark: [Displaying the Current Step with CSS Counters](displaying-the-current-step-with-css-counters/)
 - :heavy_check_mark: [HTML Video](html-video/)
 - :o: [Get started with GPU Compute on the Web](gpu-compute/)
+- :o: [Sass Crash Course](sass-crash-course)
 
 ## Static Sites
 
