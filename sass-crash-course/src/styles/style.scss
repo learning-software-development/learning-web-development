@@ -7,6 +7,21 @@
   flex-direction: $direction;
 }
 
+$desktop: 840px;
+
+@mixin desktop {
+  @media (min-width: #{$desktop}) {
+    @content;
+  }
+
+}
+
+body {
+  color: color(primary);
+
+  @include desktop {}
+}
+
 header {
   background-color: lightblue;
   height: 100vh;
@@ -18,13 +33,24 @@ footer {
   @extend header;
   a {
     background-color: $primaryButton;
-    color: $textColour;
+    color: $textColor;
     &:hover {
-      background-color: $textColour;
+      background-color: $textColor;
       color: $primaryButton;
     }
+    &::before {
+      content: '';
+      background-color: red;
+      display: block;
+      width: 10px;
+      height: 10px;
+    }
     &::after {
-      content: "Hellooo";
+      content: '';
+      background-color: red;
+      display: block;
+      width: 10px;
+      height: 10px;
     }
   }
 }
