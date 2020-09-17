@@ -14,6 +14,7 @@ Online tutorials for various web frameworks and technologies, which I completed 
 - :heavy_check_mark: [HTML Video](html-video/)
 - :o: [Get started with GPU Compute on the Web](gpu-compute/)
 - :heavy_check_mark: [Sass Crash Course](sass-crash-course/)
+- :heavy_check_mark: [Learning PostCSS](learning-postcss/)
 
 ## Static Sites
 

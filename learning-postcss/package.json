@@ -1,0 +1,21 @@
+{
+  "name": "using-postcss-to-power-your-css",
+  "version": "1.0.0",
+  "description": "Learning PostCSS with YouTube Tutorials",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "keywords": [
+    "learn-by-doing",
+    "learning-web-development",
+    "postcss"
+  ],
+  "license": "Unlicense",
+  "devDependencies": {
+    "autoprefixer": "^9.8.6",
+    "cssnano": "^4.1.10",
+    "gulp": "^4.0.2",
+    "gulp-postcss": "^8.0.0"
+  }
+}
