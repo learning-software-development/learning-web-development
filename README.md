@@ -20,8 +20,9 @@ Online tutorials for various web frameworks and technologies, which I completed 
 
 ### Nunjucks and Gulp
 
-1. [Building A Static Site With Components Using Nunjucks](static-site-with-nunjucks/)
-2. [How to Modularize HTML Using Template Engines and Gulp](nunjucks-with-gulp/)
+1. [Building A Static Site With Components Using Nunjucks](learning-static-site-generators/static-site-with-nunjucks/)
+2. [How to Modularize HTML Using Template Engines and Gulp](learning-static-site-generators/nunjucks-with-gulp/)
+3. [Learning Eleventy](learning-static-site-generators/learning-eleventy/)
 
 ### Jekyll
 
