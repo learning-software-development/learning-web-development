@@ -16,18 +16,10 @@ Online tutorials for various web frameworks and technologies, which I completed 
 - :heavy_check_mark: [Sass Crash Course](sass-crash-course/)
 - :heavy_check_mark: [Learning PostCSS](learning-postcss/)
 
-## Static Sites
+## Other Web Devlopment
 
-### Nunjucks and Gulp
+- :file_folder: [Learning Static Site Generators](learning-static-site-generators/)
 
-1. [Building A Static Site With Components Using Nunjucks](learning-static-site-generators/static-site-with-nunjucks/)
-2. [How to Modularize HTML Using Template Engines and Gulp](learning-static-site-generators/nunjucks-with-gulp/)
-3. [Learning Eleventy](learning-static-site-generators/learning-eleventy/)
+## :page_with_curl: License
 
-### Jekyll
-
-1. [Build A Blog With Jekyll And GitHub Pages](https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/) using [Jekyll Now](https://github.com/barryclark/jekyll-now) as a starting point.
-
-## Other static Site Tools
-
-- [GitHub Prose](http://prose.io/)
+The source code is free -- see the [LICENSE](LICENSE) file for details
