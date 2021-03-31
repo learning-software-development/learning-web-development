@@ -1,4 +1,5 @@
 const { src, dest, watch, series } = require('gulp');
+const sourcemaps = require('gulp-sourcemaps')
 const postcss = require('gulp-postcss');
 const autoprefixer = require('autoprefixer');
 const cssnano = require('cssnano');
@@ -9,7 +10,9 @@ function css() {
     cssnano()
   ];
   return src('./css/*.css')
+  .pipe(sourcemaps.init())
   .pipe(postcss(plugins))
+  .pipe(sourcemaps.write('.'))
   .pipe(dest('./dest'));
 };
 
