@@ -1,0 +1,17 @@
+{
+  "name": "your-first-css-animation",
+  "version": "1.0.0",
+  "description": ":link: [Tutorial](https://blog.prototypr.io/your-first-css-animation-69f0a83d8154)",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
