@@ -14,6 +14,8 @@ Online tutorials for various web frameworks and technologies, which I completed 
 - :heavy_check_mark: [HTML Video](html-video/)
 - :o: [Get started with GPU Compute on the Web](gpu-compute/)
 - :heavy_check_mark: [Sass Crash Course](sass-crash-course/)
+- :heavy_check_mark: [Your First CSS Animation](your-first-css-animation/)
+- :o: [CSS Animation for Beginners](css-animation-for-beginners/)
 
 ## Other Web Devlopment
 
