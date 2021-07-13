@@ -1,0 +1,22 @@
+{
+  "name": "grunt-setup",
+  "version": "0.1.0",
+  "description": "PostCSS Deep Dive Tutorials",
+  "main": "index.js",
+  "scripts": {
+    "start": "Grunt",
+    "build": "Grunt",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "postcss",
+    "pnpm",
+    "grunt"
+  ],
+  "author": "Quintin Henn (http://skerwe.web.za)",
+  "license": "ISC",
+  "devDependencies": {
+    "postcss": "^8.3.5",
+    "postcss-preset-env": "^6.7.0"
+  }
+}

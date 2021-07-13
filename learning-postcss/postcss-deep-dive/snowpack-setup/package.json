@@ -1,0 +1,24 @@
+{
+  "name": "snowpack-setup",
+  "version": "0.1.0",
+  "description": "PostCSS Deep Dive Tutorials",
+  "main": "index.js",
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "postcss",
+    "pnpm",
+    "snowpack"
+  ],
+  "author": "Quintin Henn (http://skerwe.web.za)",
+  "license": "ISC",
+  "devDependencies": {
+    "@snowpack/plugin-postcss": "^1.4.3",
+    "postcss": "^8.3.5",
+    "postcss-preset-env": "^6.7.0",
+    "snowpack": "^3.7.1"
+  }
+}

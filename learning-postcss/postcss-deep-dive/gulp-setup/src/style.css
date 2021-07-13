@@ -1,0 +1,26 @@
+/* Testing autoprefixer */
+
+.autoprefixer {
+  display: flex;
+}
+
+::placeholder {
+  color: gray;
+}
+
+/* Testing cssnext */
+
+.cssnext {
+  background: #FF0000A0;
+}
+
+/* Testing precss */
+
+.precss {
+  @if 3 < 5 {
+    background: green;
+  }
+  @else {
+    background: blue;
+  }
+}

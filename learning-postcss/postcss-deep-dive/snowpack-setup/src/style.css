@@ -1,0 +1,9 @@
+:root {
+  --body_bg_color: #000000D1;
+}
+
+body {
+  padding: 40px;
+  background: var(--body_bg_color);
+  color: #FFF;
+}

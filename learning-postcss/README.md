@@ -11,7 +11,7 @@
 
 ## :beginner: Online Courses
 
-1. :o: [PostCSS Deep Dive](https://webdesign.tutsplus.com/series/postcss-deep-dive--cms-889) (Tuts+)
+1. :file_folder: [PostCSS Deep Dive](postcss-deep-dive) (Tuts+)
 
 ## Other Technology
 
