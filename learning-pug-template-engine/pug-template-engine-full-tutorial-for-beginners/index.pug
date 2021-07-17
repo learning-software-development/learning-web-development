@@ -1,0 +1,19 @@
+doctype html
+html
+  head
+    title
+  body
+    h1#page-title Pug Tutorial
+    p.big-para Pug Template Engine - Full Tutorial for Beginners
+    input(type="password" name="pwd" data-js=`${5>2?"OK":"NOT OK"}`)
+
+    - const myClasses = ["class1", "class2", "class3"]
+    div.c1.c2(class=myClasses) custom classes
+
+    - const myStyles = {"color": "red", "background-color": "blue"}
+    div(style=myStyles) custom styles
+
+    - const myAttributes = {"src": "url/to/img"}
+    img&attributes(myAttributes)
+
+    input(type="text" disabled)

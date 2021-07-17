@@ -1,0 +1,17 @@
+{
+  "name": "pug-template-engine-full-tutorial-for-beginners",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Pug Template Engine - Full Tutorial for Beginners",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tutorial",
+    "freecodecamp",
+    "pug-template-engine"
+  ],
+  "author": "Quintin Henn <quintin.henn@gmail.com> (http://www.skerwe.web.za)",
+  "license": "ISC"
+}

@@ -23,6 +23,10 @@ Online tutorials for various web frameworks and technologies, which I completed 
 - :file_folder: [Learning TailwindCSS](learning-tailwindcss/)
 - :file_folder: [Learning PostCSS](learning-postcss/)
 
+## Template Engines
+
+- :file_folder: [Learning Pug Template Engine](learning-pug-template-engine/)
+
 ## :page_with_curl: License
 
 The source code is free -- see the [LICENSE](LICENSE) file for details
